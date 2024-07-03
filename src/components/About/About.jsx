@@ -12,7 +12,8 @@ const About = ({ setplaystate }) => {
           src={play_icon}
           alt="play_icon"
           className="play_icon"
-          onClick={() => setplaystate(true)}
+          onClick={() => {console.log("clicked")
+            return setplaystate(true)}}
         />
       </div>
       <div className="About-right">
