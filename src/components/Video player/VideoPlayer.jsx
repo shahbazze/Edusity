@@ -4,7 +4,7 @@ import college_video from "../../assets/edusity_assets/college.mp4"
 const VideoPlayer = ({playstate,setplaystate}) => {
   const player=useRef(null);
   const closedplayer=()=>{
-    if(e.target=player.current)
+    if(e.target===player.current)
       {
         setplaystate(false);
       }
