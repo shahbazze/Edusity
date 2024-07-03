@@ -7,7 +7,7 @@ const About = ({setplaystate}) => {
     <div className="About">
       <div className="About-left">
         <img src={about_img} alt="about_img" className="about_img"/>
-        <img src={play_icon} alt="play_icon" className="play_icon" onClick={setplaystate(true)}/>
+        <img src={play_icon} alt="play_icon" className="play_icon" onClick={() => setplaystate(true)}/>
       </div>
       <div className="About-right">
         <h3>About Univercity</h3>
